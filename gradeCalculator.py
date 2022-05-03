@@ -8,7 +8,7 @@ def calculateGrade():
     x = 'Bad score'
     if 0.0<s>1.0:
         print(x)
-            if s>=0.9:
+            elif s>=0.9:
                 x=("A")
             elif s>= 0.8:
                 x=("B")
