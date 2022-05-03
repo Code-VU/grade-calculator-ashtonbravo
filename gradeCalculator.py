@@ -5,7 +5,7 @@ def calculateGrade():
 Print('Calculating Grade')
 
 try: 
-    score = float(input( 'Enter Score: '))
+    score = float(input('Enter Score: '))
 
     if score > 1:
         print('Bad score')
@@ -19,6 +19,8 @@ try:
         print ('D')
     elif score >= 0:
         print('F')
+    else:
+        print('Bad score')
 except:
     print('Bad score')
 
