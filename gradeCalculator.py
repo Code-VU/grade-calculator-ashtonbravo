@@ -8,18 +8,18 @@ def calculateGrade():
     x = 'Error'
     if s<= 1.0 and s>= 0.0:
         if s>=0.9:
-            print("A")
+            x=("A")
         elif s>= 0.8:
-            print("B")
+            x=("B")
         elif s>=0.7:
-            print("C")
+            x=("C")
         elif s>= 0.6:
-            print("D")
+            x=("D")
         elif s<0.6:
-            print("F")
+            x=("F")
         else:
             x= ("Bad Score")
-        print (x) 
+    print (x) 
         
 
     # end assignment
