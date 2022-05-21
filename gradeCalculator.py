@@ -17,7 +17,7 @@ elif 1.0 >= score >= .9:
     print('A' + str(score))
 elif .9 > score >= .8:
     print('B')
-elif .8 > score >= .7:python 'gradeCalculator.py'
+elif .8 > score >= .7:python 
     print('C')
 elif .7 > score >= .6:
     print ('D')
