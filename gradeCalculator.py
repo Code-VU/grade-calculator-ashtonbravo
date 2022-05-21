@@ -1,4 +1,4 @@
-import sys
+#import sys
 
 #def calculateGrade():
     # Implement your solution in between the two comment blocks
@@ -6,7 +6,7 @@ import sys
     # This first line is provided for you
 
 
-#print('Calculating Grade')
+print('Calculating Grade')
 
 #try: 
 score = float(input('Enter Score: '))
